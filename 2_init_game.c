@@ -6,7 +6,7 @@
 /*   By: ado-prad <ado-prad@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/23 20:05:37 by ado-prad          #+#    #+#             */
-/*   Updated: 2023/01/23 20:27:44 by ado-prad         ###   ########.fr       */
+/*   Updated: 2023/01/26 19:01:48 by ado-prad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,15 +39,15 @@ int	ft_init_game(t_mlx *window)
 
 void	ft_put_sprites(t_mlx *window)
 {
-	ft_sprites(window, &window->player_left, "sprites/player.xpm");
-	ft_sprites(window, &window->player_right, "sprites/player.xpm");
-	ft_sprites(window, &window->player_up, "sprites/player.xpm");
-	ft_sprites(window, &window->player_down, "sprites/player.xpm");
-	ft_sprites(window, &window->wall, "sprites/wall.xpm");
-	ft_sprites(window, &window->collec, "sprites/collect.xpm");
-	ft_sprites(window, &window->exit_c, "sprites/door_close.xpm");
-	ft_sprites(window, &window->exit_o, "sprites/door_open.xpm");
-	ft_sprites(window, &window->floor, "sprites/background.xpm");
+	ft_sprites(window, &window->player_left, "textures/player.xpm");
+	ft_sprites(window, &window->player_right, "textures/player.xpm");
+	ft_sprites(window, &window->player_up, "textures/player.xpm");
+	ft_sprites(window, &window->player_down, "textures/player.xpm");
+	ft_sprites(window, &window->wall, "textures/wall.xpm");
+	ft_sprites(window, &window->collec, "textures/collect.xpm");
+	ft_sprites(window, &window->exit_c, "textures/door_close.xpm");
+	ft_sprites(window, &window->exit_o, "textures/door_open.xpm");
+	ft_sprites(window, &window->floor, "textures/background.xpm");
 }
 
 void	ft_sprites(t_mlx *window, void **image, char *path)

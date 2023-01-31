@@ -5,7 +5,7 @@ GNL_PATH	=	GNL/
 GNL_FILES	=	get_next_line_utils.c get_next_line.c ft_itoa.c
 GNL_OBJS	=	$(addprefix $(GNL_PATH), $(GNL_FILES:.c=.o))
 
-FILES		=	1_main.c 2_init_game.c 3_init_map.c 4_show_map.c 5_valid_path.c 6_test_path.c
+FILES		=	main.c init_game.c init_map.c show_map.c valid_path.c test_path.c
 OBJS		=	$(FILES:.c=.o)
 
 CFLAGS		=	-Wall -Werror -Wextra -g3
